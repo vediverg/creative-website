@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Merriweather:wght@300&family=Open+Sans&family=Oswald&family=Roboto:wght@300&display=swap');
+
+$primary-font-color: white;
+$primary-font-family: 'Open Sans', sans-serif;
+
+* {
+    box-sizing: inherit;
+}
+
+
+body {
+    background-image: url(/img/rodion-kutsaiev-pVoEPpLw818-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color:antiquewhite;
+    margin: 0;
+    color: $primary-font-color;
+    font-family: $primary-font-family;
+}
+
+@media screen and (min-width: 320px){
+
+}
+
+.above {
+    display: flex;
+    justify-content: space-between;
+    .logo {
+        margin-left: 2rem;
+        font-weight: bold;
+        font-size: 20px;
+   
+        
+    }
+    .sign-up-button {
+         margin-right: 12rem;
+         padding: 1em;
+         width: 70px;
+         height: 15px;
+         margin-top: 1em;
+         background-color: transparent;
+         border-color: #eeee;
+         border-style: solid;
+         color: $primary-font-color;
+         font-family: $primary-font-family;
+         text-transform: capitalize;
+        
+    }
+    .sign-up-button:hover {
+        background-color: azure;
+        font-family: $primary-font-family;
+        color: rgb(142, 72, 142);
+        transition: 0.4s;
+    }
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin-left: 9rem;
+
+     h4 {
+        margin-top: 4rem;
+     }
+
+    h1 {
+        text-transform: capitalize;
+        font-size: 65px;
+       letter-spacing: 4px;
+        margin-top: -1rem;
+    }
+
+    .tat-button {
+         padding: 1em;
+         width: 100px;
+         margin-top: 1em;
+         background-color: transparent;
+         border-color: #eeee;
+         border-style: solid;
+         color: $primary-font-color;
+         font-family: $primary-font-family;
+    }
+
+    .tat-button:hover {
+        background-color: azure;
+        font-family: $primary-font-family;
+        color: rgb(142, 72, 142);
+        transition: 0.4s;
+    }
+}
+
+.side-bar {
+    height: 100%;
+    width: 90px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color:  rgb(142, 72, 142);
+    overflow-x: hidden;
+    display: flex;
+    justify-content: space-between;
+
+   .side-bar-a{
+    .icons {
+        display: flex;
+        flex-direction: center;
+        width: 25px;
+        height: 25px;
+        text-decoration: none;
+        padding: 10px;
+        margin-left: 1.5rem ;
+        padding-top: 3rem;
+    }
+    
+   }
+    }
+
+    
